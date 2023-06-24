@@ -1,0 +1,43 @@
+.item {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.item-image img {
+    width: 150px;
+    height: auto;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.star{
+    display: flex;
+    position: relative;
+    top: 30px;
+}
+
+.item-price {
+    display: flex;
+    position: relative;
+    top: 0px;
+    height: 80px;
+    width: auto;
+    font-size:x-large;
+}
+
+.removeFromBasket > button{
+    position: relative;
+    top: -70px;
+    height: 25px;
+    width: 170px;
+    border-radius: 25px;
+    background: #ff9f00;
+    border: 1px;
+} 
